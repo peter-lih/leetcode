@@ -103,3 +103,5 @@ In other words, the two `+1`'s miracly cancel each other! so we can simly write
 To sum up, since Python allows arbitary length for integers, we first use a mask `0xFFFFFFFF` to restrict the lengths. But then we lose information for negative numbers, so we use the magical formula `~(a^mask)` to convert the result to Python-interpretable form.
 
 So, we get the solution.
+
+Ref. : https://leetcode.com/problems/sum-of-two-integers/solutions/776952/python-best-leetcode-371-explanation-for-python/
